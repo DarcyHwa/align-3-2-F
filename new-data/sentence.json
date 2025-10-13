@@ -1,0 +1,33 @@
+[
+    {
+        "sentence_id": 0,
+        "english_sentence_text": [
+            "And then third, you run a crowdfunding campaign",
+            "in which the everyday citizens in these communities",
+            "contribute to the projects that are in the campaign,",
+            "and those contributions are matched by the matching pool."
+        ],
+        "chinese_sentence_text": [
+            "然后第三步，",
+            "你发起一个众筹活动，",
+            "由社区里的普通市民为这些活动中的项目出资，",
+            "而这些捐款会由匹配池进行匹配。"
+        ]
+    },
+    {
+        "sentence_id": 1,
+        "english_sentence_text": [
+            "Now, that might sound like a mouthful,",
+            "But basically, the reason why we call this quadratic funding",
+            "is that it leverages squares and square roots",
+            "in order to determine the matching amounts."
+        ],
+        "chinese_sentence_text": [
+            "现在，",
+            "这听起来可能有点拗口，",
+            "但基本上，",
+            "我们之所以称之为二次方资助，",
+            "是因为它利用平方和平方根来确定匹配金额。"
+        ]
+    }
+]

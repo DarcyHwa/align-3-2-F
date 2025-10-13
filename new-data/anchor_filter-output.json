@@ -1,0 +1,93 @@
+{
+  "sentence_id": 0,
+  "filtered_anchors": {
+    "count": 1,
+    "anchors": [
+      {
+        "id": 1,
+        "coordinates": [
+          3,
+          3
+        ],
+        "anchor_info": {
+          "type": "auto_detected",
+          "similarity": 0.8289343118667603,
+          "source": "threshold_filter",
+          "rank_in_row": 1,
+          "total_candidates_in_row": 1,
+          "local_density": 0.2763114372889201,
+          "density_ratio": 1.2766124044976248,
+          "quality_score": 0.9315737247467041,
+          "filter_status": "passed",
+          "filter_reason": "密度合格 (1.2766 >= 0.8)",
+          "final_rank": 1
+        }
+      }
+    ]
+  },
+  "sentence_data": {
+    "english_sentences": [
+      "And then third, you run a crowdfunding campaign",
+      "in which the everyday citizens in these communities",
+      "contribute to the projects that are in the campaign,",
+      "and those contributions are matched by the matching pool."
+    ],
+    "chinese_sentences": [
+      "然后第三步，",
+      "你发起一个众筹活动，",
+      "由社区里的普通市民为这些活动中的项目出资，",
+      "而这些捐款会由匹配池进行匹配。"
+    ],
+    "len_sents1": 4,
+    "len_sents2": 4
+  },
+  "similarity_matrix": [
+    [
+      0.6076534390449524,
+      0.6755542755126953,
+      0.3860287070274353,
+      0.4720309376716614
+    ],
+    [
+      0.3577956557273865,
+      0.3483831584453583,
+      0.5802031755447388,
+      0.3451322317123413
+    ],
+    [
+      0.37870681285858154,
+      0.5893924236297607,
+      0.5361528396606445,
+      0.538093090057373
+    ],
+    [
+      0.3978470265865326,
+      0.4203402101993561,
+      0.40860170125961304,
+      0.8289343118667603
+    ]
+  ],
+  "parameters": {
+    "verbose": true,
+    "veryVerbose": true,
+    "cosThreshold": 0.5,
+    "margin": 0.1,
+    "minDensityRatio": 0.8,
+    "detectIntervals": true,
+    "sentRatio": 0,
+    "maxDistToTheDiagonal": 10,
+    "maxGapSize": 20,
+    "minHorizontalDensity": 0.1,
+    "localDiagBeam": 0.3,
+    "reiterateFiltering": false,
+    "kBest": 3
+  },
+  "statistics": {
+    "average_density": 0.21644113461176556,
+    "matrix_shape": [
+      4,
+      4
+    ],
+    "final_anchor_count": 1
+  }
+}

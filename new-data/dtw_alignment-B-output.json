@@ -1,0 +1,111 @@
+{
+  "sentence_id": 0,
+  "dtw_alignment_result": {
+    "total_pairs": 3,
+    "alignment_score": 2.6491692824882707,
+    "alignment_pairs": [
+      {
+        "pair_id": 1,
+        "english_indices": [
+          0
+        ],
+        "chinese_indices": [
+          0,
+          1
+        ],
+        "english_texts": [
+          "And then third, you run a crowdfunding campaign"
+        ],
+        "chinese_texts": [
+          "然后第三步，",
+          "你发起一个众筹活动，"
+        ],
+        "alignment_type": "1-2"
+      },
+      {
+        "pair_id": 2,
+        "english_indices": [
+          1,
+          2
+        ],
+        "chinese_indices": [
+          2
+        ],
+        "english_texts": [
+          "in which the everyday citizens in these communities",
+          "contribute to the projects that are in the campaign,"
+        ],
+        "chinese_texts": [
+          "由社区里的普通市民为这些活动中的项目出资，"
+        ],
+        "alignment_type": "2-1"
+      },
+      {
+        "pair_id": 3,
+        "english_indices": [
+          3
+        ],
+        "chinese_indices": [
+          3
+        ],
+        "english_texts": [
+          "and those contributions are matched by the matching pool."
+        ],
+        "chinese_texts": [
+          "而这些捐款会由匹配池进行匹配。"
+        ],
+        "alignment_type": "1-1"
+      }
+    ]
+  },
+  "statistics": {
+    "english_sentence_count": 4,
+    "chinese_sentence_count": 4,
+    "alignment_types": {
+      "1-2": 1,
+      "2-1": 1,
+      "1-1": 1
+    }
+  },
+  "parameters": {
+    "verbose": true,
+    "veryVerbose": true,
+    "distNull": 1.0,
+    "penalty_n_n": 0.01,
+    "penalty_0_n": 0.05,
+    "noEmptyPair": false,
+    "no2_2Group": false,
+    "dtwBeam": 7,
+    "localDiagBeam": 0.35,
+    "useEncoder": true,
+    "noMarginPenalty": false,
+    "lateGrouping": true,
+    "allowedGroups": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ]
+  },
+  "timestamp": "2025-07-13 20:28:20"
+}

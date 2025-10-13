@@ -1,0 +1,9 @@
+[project]
+name = "align-3-2-b"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.1",
+    "requests>=2.32.4",
+]

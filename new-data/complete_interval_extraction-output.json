@@ -1,0 +1,124 @@
+{
+  "sentence_id": 0,
+  "final_anchors": {
+    "count": 1,
+    "anchors": [
+      {
+        "id": 1,
+        "coordinates": [
+          3,
+          3
+        ],
+        "processing_status": "final_kept",
+        "final_rank": 1,
+        "original_id": 1,
+        "similarity": 0.8289343118667603,
+        "quality_score": 0.9315737247467041,
+        "density_ratio": 1.2766124044976248,
+        "source": "threshold_filter",
+        "original_info": {
+          "type": "auto_detected",
+          "rank_in_row": 1,
+          "total_candidates_in_row": 1,
+          "local_density": 0.2763114372889201,
+          "filter_status": "passed",
+          "filter_reason": "密度合格 (1.2766 >= 0.8)"
+        }
+      }
+    ],
+    "processing_history": {
+      "input_count": 1,
+      "final_count": 1,
+      "filtered_count": 0,
+      "filter_rate": 0.0,
+      "processing_steps": [
+        "density_filtering_completed",
+        "interval_division_applied",
+        "final_diagonal_filtering_applied"
+      ]
+    }
+  },
+  "alignable_intervals": {
+    "count": 1,
+    "intervals": [
+      {
+        "interval_id": 1,
+        "coordinates": {
+          "start": [
+            -1,
+            -1
+          ],
+          "end": [
+            3,
+            3
+          ]
+        },
+        "sentence_counts": {
+          "english": 5,
+          "chinese": 5
+        },
+        "character_counts": {
+          "english": 207,
+          "chinese": 52
+        },
+        "statistics": {
+          "area": 25,
+          "density": 1.5625,
+          "english_coverage": 1.25,
+          "chinese_coverage": 1.25
+        }
+      }
+    ],
+    "total_area": 25
+  },
+  "interval_statistics": {
+    "total_english_sentences": 5,
+    "total_chinese_sentences": 5,
+    "total_english_characters": 207,
+    "total_chinese_characters": 52,
+    "coverage_english_percent": 125.0,
+    "coverage_chinese_percent": 125.0
+  },
+  "quality_metrics": {
+    "overall_quality": 1.0,
+    "coverage_ratio": 1.5625,
+    "anchor_retention_rate": 1.0,
+    "interval_efficiency": 1.0,
+    "average_interval_size": 25.0
+  },
+  "source_data": {
+    "input_anchor_count": 1,
+    "final_anchor_count": 1,
+    "filtered_anchor_count": 0,
+    "document_size": {
+      "english_sentences": 4,
+      "chinese_sentences": 4
+    },
+    "average_density": 0.21644113461176556,
+    "source_file": "../new-data/anchor_filter-output.json"
+  },
+  "processing_metadata": {
+    "parameters": {
+      "verbose": true,
+      "veryVerbose": true,
+      "detectIntervals": true,
+      "sentRatio": 0,
+      "maxDistToTheDiagonal": 10,
+      "maxGapSize": 20,
+      "minHorizontalDensity": 0.1,
+      "localDiagBeam": 0.3,
+      "minDensityRatio": 0.8,
+      "deltaX": 10,
+      "deltaY": 10
+    },
+    "processing_timestamp": "2025-07-13 19:51:49",
+    "processing_note": "完整复现参考代码的区间划分和结果输出逻辑（增强版本）",
+    "algorithm_version": "complete_anchor_extraction_v2.0",
+    "features": [
+      "enhanced_anchor_tracking",
+      "detailed_interval_statistics",
+      "quality_metrics_calculation",
+      "processing_history_recording"
+    ]
+  }
+}
