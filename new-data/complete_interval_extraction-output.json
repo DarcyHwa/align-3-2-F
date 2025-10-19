@@ -12,17 +12,17 @@
         "processing_status": "final_kept",
         "final_rank": 1,
         "original_id": 1,
-        "similarity": 0.8289343118667603,
-        "quality_score": 0.9315737247467041,
-        "density_ratio": 1.2766124044976248,
+        "similarity": 0.8264321684837341,
+        "quality_score": 0.9305728673934937,
+        "density_ratio": 1.2755519315090165,
         "source": "threshold_filter",
         "original_info": {
           "type": "auto_detected",
           "rank_in_row": 1,
           "total_candidates_in_row": 1,
-          "local_density": 0.2763114372889201,
+          "local_density": 0.27547738949457806,
           "filter_status": "passed",
-          "filter_reason": "密度合格 (1.2766 >= 0.8)"
+          "filter_reason": "密度合格 (1.2756 >= 0.8)"
         }
       }
     ],
@@ -94,7 +94,7 @@
       "english_sentences": 4,
       "chinese_sentences": 4
     },
-    "average_density": 0.21644113461176556,
+    "average_density": 0.21596720814704895,
     "source_file": "../new-data/anchor_filter-output.json"
   },
   "processing_metadata": {
@@ -111,7 +111,7 @@
       "deltaX": 10,
       "deltaY": 10
     },
-    "processing_timestamp": "2025-07-13 19:51:49",
+    "processing_timestamp": "2025-10-14 23:17:04",
     "processing_note": "完整复现参考代码的区间划分和结果输出逻辑（增强版本）",
     "algorithm_version": "complete_anchor_extraction_v2.0",
     "features": [
